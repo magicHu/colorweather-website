@@ -1,0 +1,20 @@
+/* reset css */
+body,p,input,h1,h2,h3,h4,h5,ul,ol,li,dl,dt,dd,form,header,nav,menu,section,figure,footer,article{ margin:0; padding:0;}
+ul,ol,li{list-style:none;}
+body {-webkit-text-size-adjust: none; font-size:16px;font-family:Arial, Helvetica, sans-serif; color:#383838;
+font: 14px/1.5 arial,helvetica,sans-serif;background:whitesmoke;
+color: #535353;}
+a,img { border:0; } 
+h1,h2,h3,h4,h5,h6{ font-size:100%; font-style:normal; font-weight:400;}
+a{color:#383838;text-decoration:none;}
+
+/* list */
+.list .app{background:#F5F5F5;position:relative;padding:10px 5px;border-bottom:1px solid #d7d7d7;}
+.list .app .icon{height:48px;width:48px;position:relative;top:3px;left:5px;border-radius:5px;}
+.list .name{font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;word-break:break-all;font-weight:bold;margin-top:10px;position:absolute;left:70px;top:3px;}
+.list .name a{color:#333;width:140px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;word-break:break-all;}
+.list .size{font-size:12px;padding-left: 13px}
+.list .info{display:inline-block;margin-left:20px;font-size:12px;}
+.list .download{position:absolute;right:5px;margin-right:2px;display:inline-block;  text-align:right;margin-top:-45px;border:1px solid #3E5D9E;border-radius:4px;background:#3E5D9E;padding:4px 8px;color:#191919; font-size:12px;}
+
+.list .cutom_down{display:inline-block;color:white;padding:4px 18px;font-size: 14px;line-height: 13px;}
